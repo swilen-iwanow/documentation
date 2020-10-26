@@ -1,10 +1,10 @@
 TEST TEMPLATES IN DOCFORGE
 
-{{ content1 }}
+{{ .content1 }}
 
 Here begins Content2
 
-{{ conntent2 }}
+{{ .conntent2 }}
 
 END
 
