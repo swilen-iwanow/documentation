@@ -1,0 +1,11 @@
+TEST TEMPLATES IN DOCFORGE
+
+{{ content1 }}
+
+Here begins Content2
+
+{{ conntent2 }}
+
+END
+
+AFTER THIS TEST IF WE CAN REUSE TEMPLATES
