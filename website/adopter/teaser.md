@@ -3,3 +3,4 @@
 [dds](https://raw.githubusercontent.com/swilen-iwanow/documentation/master/website/documentation/contribute/_index.md)
 ![dds](https://github.com/swilen-iwanow/documentation/blob/master/images/logo-text-black-18pt.svg)
 ![dsa](https://raw.githubusercontent.com/swilen-iwanow/documentation/master/images/logo-text-black-18pt.svg)
+![vc](https://raw.githubusercontent.com/swilen-iwanow/documentation/master/images/logo-text-white-18pt.svg)
