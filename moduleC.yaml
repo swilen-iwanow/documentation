@@ -1,0 +1,33 @@
+nodesSelector:
+  path: https://github.com/swilen-iwanow/documentation/blob/master/documentation.yaml
+structure:
+- name: concepts
+  properties:
+    frontmatter:
+      title: Concepts
+      description: Explore the concepts on which Gardener is built
+      type: docs
+      menu: sln
+      sidebar: true
+      weight: 20
+  nodes:
+  - name: architecture
+    nodes:
+    - name: _index
+      properties:
+        frontmatter:
+          title: Architecture
+          remote: https://github.com/gardener/documentation/wiki/Architecture
+          type: docs
+          weight: 10
+      contentSelectors:
+      - source: https://github.com/gardener/documentation/blob/master/website/documentation/concepts/architecture/_index.md
+    - name: 10_gardener
+      properties:
+        frontmatter:
+          title: Gardener
+          remote: https://github.com/gardener/gardener/blob/master/README.md
+          url: /components/gardener/
+          type: docs
+      contentSelectors:
+      - source: https://github.com/gardener/gardener/blob/master/README.md
