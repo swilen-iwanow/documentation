@@ -1,7 +1,7 @@
 nodesSelector:
   path: https://github.com/swilen-iwanow/documentation/blob/master/documentation.yaml
 structure:
-- name: concepts
+- name: dogfood
   properties:
     frontmatter:
       title: Concepts
