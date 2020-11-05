@@ -31,3 +31,11 @@ structure:
           type: docs
       contentSelectors:
       - source: https://github.com/gardener/gardener/blob/master/README.md
+      links:
+        rewrites:
+          "gardener/gardener":
+            "destination": "inner-moduleC-moduleRewrites"
+links:
+  rewrites:
+    "gardener/gardener":
+      "destination": "global-moduleC-moduleRewrites"
