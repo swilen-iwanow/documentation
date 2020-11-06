@@ -48,7 +48,5 @@ links:
       "global-parent-scope":
         "scope" : fifi
     renames:
-      "thisShouldAppearIn":
-        "dddd" : dddd
-      "global-parent-renames":
-        "scope" : fifi
+      "thisShouldAppearIn": dssadsa
+      "global-parent-renames": dasda
