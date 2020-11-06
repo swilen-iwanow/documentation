@@ -39,3 +39,16 @@ links:
   rewrites:
     "gardener/gardener":
       "destination": "global-moduleC-moduleRewrites"
+    "gardener/elca":
+      "destination": "thisShouldNotBeRemoved"
+  downloads:
+    scope:
+      "swilen-iwanow/documentation":
+        "dddd" : dddd
+      "global-parent-scope":
+        "scope" : fifi
+    renames:
+      "thisShouldAppearIn":
+        "dddd" : dddd
+      "global-parent-renames":
+        "scope" : fifi
