@@ -12,19 +12,19 @@ structure:
   - name: moduleB
     nodesSelector:
       path: https://github.com/swilen-iwanow/documentation/edit/modules/moduleB.yaml
-    - name: 10_gardener
-      properties:
-        frontmatter:
-          title: Gardener
-          remote: https://github.com/gardener/gardener/blob/master/README.md
-          url: /components/gardener/
-          type: docs
-      contentSelectors:
-      - source: https://github.com/gardener/gardener/blob/master/README.md
-      links:
-        rewrites:
-          "gardener/gardener":
-            "destination": "inner-moduleC-moduleRewrites"
+  - name: 10_gardener
+    properties:
+      frontmatter:
+        title: Gardener
+        remote: https://github.com/gardener/gardener/blob/master/README.md
+        url: /components/gardener/
+        type: docs
+    contentSelectors:
+    - source: https://github.com/gardener/gardener/blob/master/README.md
+    links:
+      rewrites:
+        "gardener/gardener":
+          "destination": "inner-moduleC-moduleRewrites"
 links:
   rewrites:
     "gardener/gardener":
