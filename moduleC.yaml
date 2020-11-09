@@ -11,7 +11,7 @@ structure:
   nodes:
   - name: moduleB
     nodesSelector:
-      path: https://github.com/swilen-iwanow/documentation/edit/modules/moduleB.yaml
+      path: https://github.com/swilen-iwanow/documentation/blob/modules/moduleC.yaml
   - name: 10_gardener
     properties:
       frontmatter:
