@@ -9,17 +9,9 @@ structure:
       sidebar: true
       weight: 20
   nodes:
-  - name: architecture
-    nodes:
-    - name: _index
-      properties:
-        frontmatter:
-          title: Architecture
-          remote: https://github.com/gardener/documentation/wiki/Architecture
-          type: docs
-          weight: 10
-      contentSelectors:
-      - source: https://github.com/gardener/documentation/blob/master/website/documentation/concepts/architecture/_index.md
+  - name: moduleB
+    nodesSelector:
+      path: https://github.com/swilen-iwanow/documentation/edit/modules/moduleB.yaml
     - name: 10_gardener
       properties:
         frontmatter:
