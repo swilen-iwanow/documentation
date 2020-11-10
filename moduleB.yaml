@@ -1,2 +1,4 @@
-nodesSelector:
-  path: https://github.com/swilen-iwanow/documentation/blob/modules/moduleC.yaml
+structure:
+- name: moduleB
+  nodesSelector:
+    path: https://github.com/swilen-iwanow/documentation/blob/modules/moduleC.yaml
